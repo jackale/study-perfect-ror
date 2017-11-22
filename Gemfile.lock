@@ -1,0 +1,13 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rdefs (0.0.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rdefs
+
+BUNDLED WITH
+   1.16.0

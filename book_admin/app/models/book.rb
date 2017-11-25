@@ -19,4 +19,5 @@ class Book < ActiveRecord::Base
 	after_destroy do |book|
 		Rails.logger.info "Book is deleted: #{book.attributes.inspect}"
 	end
+	enum status: %w(reservation now_on_sale end_of_print)
 end
